@@ -11,5 +11,10 @@ package com.theironyard;
 public class Main {
 
     // todo: create a main() method that invokes each of the methods in the Volume class
+    public static void main(String[] args) {
+        Volume.cube(5.2);
+        Volume.cone(5.2,8.9);
+        Volume.sphere(7.5);
+    }
 
 }
